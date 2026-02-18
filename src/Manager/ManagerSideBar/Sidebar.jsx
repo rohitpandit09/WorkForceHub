@@ -19,7 +19,9 @@ const Sidebar = () => {
           navigate('/managers-dashboard')
         }}>Dashboard</button>
 
-        <button className='active:scale-95 hover:bg-blue-200 outline-none'>Employee</button>
+        <button className='active:scale-95 hover:bg-blue-200 outline-none' onClick={()=>{
+          navigate('/managers-employee')
+        }}>Employee</button>
 
 
         <button className='active:scale-95 hover:bg-blue-200 outline-none'>Attendance</button>
@@ -27,7 +29,7 @@ const Sidebar = () => {
 
         <button className='active:scale-95 hover:bg-blue-200 outline-none'>Settings</button>
 
-        
+
       </div>
     </div>
   )

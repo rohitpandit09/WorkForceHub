@@ -3,6 +3,7 @@ import { Route, Routes } from 'react-router-dom'
 import Manager from '../Manager/Manager'
 import Login from '../authentication/login'
 import Dashboard from '../Manager/ManagerRightSideContent/Dashboard'
+import Employee from '../Manager/ManagerRightSideContent/Employee'
 
 
 const AppRoutes = () => {
@@ -13,6 +14,7 @@ const AppRoutes = () => {
 
         <Route element={<Manager/>}>
         <Route path="/managers-dashboard" element={<Dashboard />} />
+        <Route path='/managers-employee' element={<Employee/>}/>
         
       </Route>
 
