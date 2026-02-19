@@ -20,3 +20,29 @@ export const dummyData = [
         isActive : 'Active'
     }
 ]
+
+export const dummyDataForAttendance = [
+    {
+        key : 1,
+        title : "Active employees",
+        number : "80"
+    },
+
+    {
+        key :2,
+        title : "Inactive employees",
+        number : '10'
+    },
+
+    {
+        key : 3,
+        title : "On Leave",
+        number : '2'
+    },
+
+    {
+        key:4,
+        title: "On break",
+        number :'3'
+    }
+]
